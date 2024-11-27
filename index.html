@@ -16,8 +16,8 @@
   </head>
   <body> 
     <!-- navbar section start  -->
-     <header class="header_wrapper">
-      <nav class="navbar navbar-expand-lg fixed-top" id="navbar-example">
+     <header class="header_wrapper" id="navbar-spy">
+      <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="images/logo.png" alt="logo" class="img-fluid">
@@ -52,6 +52,8 @@
       </nav>
      </header>
     <!-- navbar section end  -->
+<section data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-offset="0" class="scrollspy-example mb-0" tabindex="0">
+
 
     <!-- BANNER SECTION START  -->
     <section id="home" class="banner_wrapper">
@@ -366,7 +368,7 @@
 
     <!-- FOOTER SECTION END  -->
 
-
+  </section>
 
 </body>
 <!-- bootstrap js cdn link  -->
