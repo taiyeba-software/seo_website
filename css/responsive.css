@@ -1,0 +1,136 @@
+
+
+
+@media(min-width:1400px){
+    /* custom css  */
+    
+    /* navbar  */
+    
+    
+    /* banner wrapper  */
+    .services_wrapper .service-phone{
+        max-width: 80%;
+    }
+    /*
+    .banner_wrapper .banner-img{
+        height:auto;
+        width: 78%;
+        top: -31px;
+        
+        }
+        */
+        /* about  */
+
+        /* blog  */
+          
+        
+        /* portfolio  */
+        
+        
+    }
+
+    @media(max-width:1230px){
+        /* custom css  */
+        
+    
+    
+        /* banner  */
+
+        /* services  */
+        .services_wrapper .service-phone{
+            max-width: 100%;
+        }
+
+        /* blog */
+         
+        
+        
+      
+        /* about  */
+    
+    
+        /* portfolio  */
+    
+    
+    }
+
+@media(max-width:991px){
+    /* custom css  */
+    section{
+        padding: 20px 0;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+    /* navbar  */
+    .header-scrolled{
+        height: auto;
+    }
+
+    .header_wrapper .menu-navbar-nav{
+        text-align: center;
+        background-color: var(--bg-white);
+        padding-bottom:15px ;
+    }
+
+    .header_wrapper .nav-item .nav-link{
+        margin-top: 15px;
+    }
+
+    /* banner  */
+    
+  
+    /* about  */
+
+    /* blog  */
+   
+
+
+    /* portfolio  */
+
+
+}
+
+@media(max-width:767px){
+    /* custom css  */
+    h1{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .main-btn{
+        font-size: 13px;
+    }
+    /* navbar  */
+
+
+    /* banner wrapper  */
+
+
+    /* about  */
+
+    /* blog  */
+    .blog_wrapper .form-class form{
+        margin-left:0%;
+    }
+
+
+    /* portfolio  */
+
+
+}
+
